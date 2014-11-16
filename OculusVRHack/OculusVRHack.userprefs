@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/OVR/ExampleMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CollisionDetector.cs">
     <Files>
-      <File FileName="Assets/CollisionDetector.cs" Line="36" Column="3" />
+      <File FileName="Assets/CollisionDetector.cs" Line="36" Column="39" />
       <File FileName="Assets/OVR/Scripts/Util/OVRGamepadController.cs" Line="164" Column="13" />
       <File FileName="Assets/QuizMenu.cs" Line="6" Column="1" />
       <File FileName="Assets/OVR/ExampleMenu.cs" Line="214" Column="43" />

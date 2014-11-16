@@ -49,7 +49,7 @@ public class CollisionDetector : MonoBehaviour {
 		}
 		if(other.transform.name.Equals ("BrianCollision")) { 
 			Debug.Log ("Brian detected");
-			transform.position = new Vector3 (41, -19, -70);
+			transform.position = new Vector3 (8, -13, -66);
 		}
 	}
 }
