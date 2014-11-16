@@ -1,9 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CollisionDetector.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ExampleHUD.cs">
     <Files>
-      <File FileName="Assets/CollisionDetector.cs" Line="36" Column="43" />
-      <File FileName="Assets/Fading.cs" Line="9" Column="35" />
+      <File FileName="Assets/CollisionDetector.cs" Line="26" Column="4" />
+      <File FileName="Assets/Fading.cs" Line="1" Column="1" />
+      <File FileName="Assets/OVR/Scripts/Util/OVRMainMenu.cs" Line="810" Column="35" />
+      <File FileName="Assets/OVR/Scripts/Util/OVRGamepadController.cs" Line="1" Column="1" />
+      <File FileName="Assets/QuizMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/ExampleHUD.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
