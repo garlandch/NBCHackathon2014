@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AssemblyInfo.cs" />
      <Compile Include="Assets\CollisionDetector.cs" />
      <Compile Include="Assets\ExampleHUD.cs" />
      <Compile Include="Assets\ExamplePlayerController.cs" />
