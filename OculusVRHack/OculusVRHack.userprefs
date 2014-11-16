@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MovieStart.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CollisionDetector.cs">
     <Files>
-      <File FileName="Assets/MovieStart.cs" Line="9" Column="21" />
+      <File FileName="Assets/CollisionDetector.cs" Line="36" Column="43" />
+      <File FileName="Assets/Fading.cs" Line="9" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
