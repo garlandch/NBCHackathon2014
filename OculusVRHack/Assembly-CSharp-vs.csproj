@@ -50,6 +50,8 @@
      <Compile Include="Assets\ExampleHUD.cs" />
      <Compile Include="Assets\ExamplePlayerController.cs" />
      <Compile Include="Assets\Fading.cs" />
+     <Compile Include="Assets\JsonParsor.cs" />
+     <Compile Include="Assets\Main.cs" />
      <Compile Include="Assets\MovieStart.cs" />
      <Compile Include="Assets\OVR\ExampleMenu.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCameraRig.cs" />

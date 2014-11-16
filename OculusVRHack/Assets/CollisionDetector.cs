@@ -13,26 +13,43 @@ public class CollisionDetector : MonoBehaviour {
 	
 	}
 
-	IEnumerator OnTriggerEnter(Collider other) { 
+	void OnTriggerEnter(Collider other) { 
 		Debug.Log (other.transform.name);
 		if(other.transform.name.Equals ("Collision5")) { 
 			Debug.Log ("Collision 5 detected");
+			transform.position = new Vector3 (4, -20, -5);
 		} 
 		if(other.transform.name.Equals ("Collision4")) { 
 			Debug.Log ("Collision 4 detected");
+			transform.position = new Vector3 (4, -20, -5);
 		}
 		if(other.transform.name.Equals ("Collision3")) { 
 			Debug.Log ("Collision 3 detected");
+			transform.position = new Vector3 (4, -20, -5);
 		}
 		if(other.transform.name.Equals ("Collision2")) { 
 			Debug.Log ("Collision 2 detected");
+			transform.position = new Vector3 (4, -20, -5);
 		}
 		if(other.transform.name.Equals ("Collision1")) { 
 			Debug.Log ("Collision 1 detected");
+			transform.position = new Vector3 (4, -20, -5);
 		}
-
-		float fadeTime = GameObject.Find ("Ceiling").GetComponent<Fading> ().BeginFade (1);
-		yield return new WaitForSeconds (fadeTime);
-		transform.position = new Vector3 (8, -20, -5);
+		if(other.transform.name.Equals ("DomCollision")) { 
+			Debug.Log ("Dom detected");
+			transform.position = new Vector3 (8, -10, 60);
+		}
+		if(other.transform.name.Equals ("HobbsCollision")) { 
+			Debug.Log ("Hobbs detected");
+			transform.position = new Vector3 (7, -48, -5);
+		}
+		if(other.transform.name.Equals ("LettyCollision")) { 
+			Debug.Log ("Letty detected");
+			transform.position = new Vector3 (8, -49, 61);
+		}
+		if(other.transform.name.Equals ("BrianCollision")) { 
+			Debug.Log ("Brian detected");
+			transform.position = new Vector3 (8, -13, -66);
+		}
 	}
 }

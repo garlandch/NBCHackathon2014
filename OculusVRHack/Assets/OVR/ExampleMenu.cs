@@ -216,7 +216,7 @@ public class ExampleMenu : VRGUI
 			else if(maxIndex == 2) { 
 				Debug.Log ("brian");
 				result = false;
-				transform.position = new Vector3 (41,-19, -70); 
+				transform.position = new Vector3 (8, -13, -66); 
 			} 
 			else if(maxIndex == 3) { 
 				Debug.Log ("letty"); 
