@@ -13,7 +13,9 @@ public class CollisionDetector : MonoBehaviour {
 	
 	}
 
-	void OnTriggerEnter(Collider other) { 
+	IEnumerator OnTriggerEnter(Collider other) { 
 		Debug.Log (other.transform.name);
+		float fadeTime = GameObject.Find ("Ceiling").GetComponent<Fading> ().BeginFade (1);
+		yield return new WaitForSeconds (fadeTime);
 	}
 }
